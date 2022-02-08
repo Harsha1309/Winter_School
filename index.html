@@ -12,6 +12,32 @@
       crossorigin="anonymous"
     />
   </head>
+  <style>
+      .homepage{
+          font-size: 100px;
+      }
+      .anotherpage{
+        font-size: 40px;
+      }
+      @media only screen and (max-width:1130px) {
+          .homepage{
+              font-size: 80px;
+          }
+      }
+      @media only screen and (max-width:900px) {
+          .homepage{
+              font-size: 60px;
+          }
+      }
+      @media only screen and (max-width:530px) {
+          .homepage{
+              font-size: 40px;
+          }
+          .anotherpage{
+              font-size: 20px;
+          }
+      }
+  </style>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary ">
       <div class="container-fluid d-flex text-center">
@@ -62,55 +88,13 @@
 
     
     <div class="card" style="width: 100%; height: 95vh;">
-        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-          <h1 class="text-center my-xxl-5">Winter School 2022</h1>
+          <h1 class="text-center homepage" style="position: relative; top: 120px; font-weight: bolder;">WINTER SCHOOL 2022</h1>
+          <h3 class="text-center anotherpage" style="position: relative; top: 120px; ">Organised by Science and Technical Council</h3>
+    
+          
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-        <div class="container-fluid">
-
-          <a class="navbar-brand" href="#">WINTER SCHOOL</a>
-
-          <a class="navbar-brand" href="#">Winter School</a>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-
-                <a class="nav-link" href="#">ABOUT</a>
-
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
->>>>>>> 988452c97669e039baf6f2980e40fc7939654ca5
         </div>
       </div>
     
