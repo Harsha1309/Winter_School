@@ -43,7 +43,62 @@
           
       }
       
-      
+      .card {
+  border:0;
+}
+
+
+/* card group aka PRIMARY */
+.card-group .card-primary:hover {
+  box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+  z-index: 100;
+}
+.card-group .card-primary:hover .card-title{
+  color: #4e22d0;
+}
+.card-group .card-primary .card-img-top{
+  width:264px;
+  height:264px;
+  margin: 80px auto 32px;
+}
+.card-group .card-primary .card-body > .badge {
+  margin-bottom: 24px;
+}
+.card-group .card-primary .card-body {
+  padding: 0 32px;
+}
+.card-group .card-primary .card-title {
+  color: #261c6a;
+  font-size: 26px;
+  line-height: 1.54;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+.card-group .card-primary .card-text {
+  color: #261c6a;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.card-group .card-primary .card-footer {
+  padding: 48px 0 56px;
+  background: transparent;
+  border:0;
+}
+
+
+
+
+
+/* PAGE LAYOUT */
+main{
+  padding:0 20px;
+  max-width:1361px;
+  margin:0 auto;
+}
+h2 {
+  margin-top: 40px;
+}
   </style>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary ">
@@ -147,6 +202,60 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+
+      <main>
+  
+        <h1 class="text-center" style="padding: 5%; font-size: 300%;">TECHNICAL SCHOOLS AND WORKSHOPS</h1>
+        <div class="card-group">
+          <div class="card card-primary text-center">
+            <img class="card-img-top" src="https://static3.avast.com/10001215/web/i/index2/for-home.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="badge badge-primary badge-sm">FOR HOME</div>
+              <div class="card-title">Personal online protection everywhere you go</div>
+              <p class="card-text">We protect your privacy and keep you safe online with Premium Security and our Virtual Private Network (VPN) that safeguards your personal data.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-outline-secondary btn-icon-right">
+                <span>DATA SCIENCE
+                  <img src="https://static3.avast.com/1/web/i/v2/components/arrow-m-right-orange.png" height="24">
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="card card-primary text-center">
+            <img class="card-img-top" src="https://static3.avast.com/10001215/web/i/index2/for-partners.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="badge badge-primary badge-sm">CYBER SECURITY</div>
+              <div class="card-title">Simple solutions for business’s biggest security problems</div>
+              <p class="card-text">We deliver complete endpoint and network security solutions designed for small and midsize businesses & IT service providers.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-outline-secondary btn-icon-right">
+                <span>CYBER SECURITY
+                  <img src="https://static3.avast.com/1/web/i/v2/components/arrow-m-right-orange.png" height="24">
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="card card-primary text-center">
+            <img class="card-img-top" src="https://static3.avast.com/10001215/web/i/index2/for-business.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="badge badge-primary badge-sm">FOR PARTNERS</div>
+              <div class="card-title">Protecting the customers of global operators</div>
+              <p class="card-text">We partner with the world’s leading mobile and broadband network operators to offer security, privacy, and digital parenting solutions.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-outline-secondary btn-icon-right">
+                <span>WORKSHOP ON DRONES
+                  <img src="https://static3.avast.com/1/web/i/v2/components/arrow-m-right-orange.png" height="24">
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
